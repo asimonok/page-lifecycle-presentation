@@ -1,0 +1,19 @@
+@import url('./fonts.css');
+@import url('~bootstrap/dist/css/bootstrap.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --brand-color: #282c34;
+  --link-color: #61dafb;
+  --text-color: #ffffff;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

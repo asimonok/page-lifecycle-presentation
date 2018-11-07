@@ -1,0 +1,20 @@
+.root {
+  background-color: var(--brand-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  color: var(--text-color);
+  text-decoration: none;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.menu svg {
+  fill: var(--text-color);
+  width: 2rem;
+  height: 2rem;
+}

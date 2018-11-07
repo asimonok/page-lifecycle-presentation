@@ -1,0 +1,35 @@
+.root {
+  background-color: var(--brand-color);
+  padding: 0.5rem 1rem;
+}
+
+.contacts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts li {
+  margin: 0.5em 0;
+}
+
+.contacts a {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.contacts svg {
+  fill: var(--text-color);
+  width: 1em;
+  height: 1em;
+}
+
+.copyright {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 0.5em;
+}

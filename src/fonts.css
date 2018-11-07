@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./fonts/OpenSansRegular/OpenSansRegular.eot'), /* IE9 Compat Modes */
+       url('./fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/OpenSansRegular/OpenSansRegular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  /*font-display: fallback;*/
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot'), /* IE9 Compat Modes */
+       url('./fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./fonts/OpenSansBold/OpenSansBold.eot'), /* IE9 Compat Modes */
+       url('./fonts/OpenSansBold/OpenSansBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/OpenSansBold/OpenSansBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./fonts/OpenSansExtraBold/OpenSansExtraBold.eot'), /* IE9 Compat Modes */
+       url('./fonts/OpenSansExtraBold/OpenSansExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/OpenSansExtraBold/OpenSansExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 900;
+  font-style: normal;
+}
