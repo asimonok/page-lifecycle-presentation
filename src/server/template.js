@@ -2,7 +2,7 @@ const template = (title, initialState = {}, content = '') => {
   let scripts = '';
   if(content){
     scripts = `
-        <script src="client.js"></script>
+        <script src="client.js" async></script>
     `
   }
   let page = `

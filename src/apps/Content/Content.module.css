@@ -32,3 +32,16 @@
   justify-content: center;
   margin: 2rem;
 }
+
+.button {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: block;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  box-shadow: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: var(--text-color);
+  border-radius: 4px;
+}
