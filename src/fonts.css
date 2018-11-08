@@ -5,7 +5,7 @@
        url('./fonts/OpenSansRegular/OpenSansRegular.ttf') format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
-  /*font-display: fallback;*/
+  font-display: fallback;
 }
 
 @font-face {
@@ -15,6 +15,7 @@
        url('./fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf') format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -24,6 +25,7 @@
        url('./fonts/OpenSansBold/OpenSansBold.ttf') format('truetype'); /* Safari, Android, iOS */
   font-weight: 700;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -33,4 +35,5 @@
        url('./fonts/OpenSansExtraBold/OpenSansExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
   font-weight: 900;
   font-style: normal;
+  font-display: fallback;
 }

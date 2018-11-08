@@ -5,7 +5,7 @@
        url(fonts/OpenSansRegular.ttf) format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
-  /*font-display: fallback;*/
+  font-display: fallback;
 }
 
 @font-face {
@@ -15,6 +15,7 @@
        url(fonts/OpenSansRegularItalic.ttf) format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -24,6 +25,7 @@
        url(fonts/OpenSansBold.ttf) format('truetype'); /* Safari, Android, iOS */
   font-weight: 700;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -33,23 +35,19 @@
        url(fonts/OpenSansExtraBold.ttf) format('truetype'); /* Safari, Android, iOS */
   font-weight: 900;
   font-style: normal;
+  font-display: fallback;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'OpenSans';
+  font-family: 'OpenSans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --brand-color: #282c34;
   --link-color: #61dafb;
   --text-color: #ffffff;
   font-size: 18px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 ._3jvY1PANsrU_GrqoNooRJz {

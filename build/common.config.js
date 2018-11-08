@@ -1,4 +1,3 @@
-// const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
@@ -53,7 +52,6 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: 'fonts/[name].[ext]',
-              // publicPath: 'fonts/',
             },
           }
         ],
@@ -65,7 +63,17 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: 'images/[name].[ext]',
-              // publicPath: 'images/',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(crt|pem)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
             },
           },
         ],
