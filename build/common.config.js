@@ -1,4 +1,9 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { ImageminWebpackPlugin } = require('imagemin-webpack');
+const imageminGifsicle = require('imagemin-gifsicle');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminPngquant = require('imagemin-pngquant');
+const imageminSvgo = require('imagemin-svgo');
 
 module.exports = {
   output: {
@@ -84,6 +89,18 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
+    }),
+    new ImageminWebpackPlugin({
+      imageminOptions: {
+        plugins: [
+          imageminGifsicle(),
+          imageminMozjpeg({
+            quality: 70,
+          }),
+          imageminPngquant(),
+          imageminSvgo(),
+        ],
+      },
     }),
   ],
 };

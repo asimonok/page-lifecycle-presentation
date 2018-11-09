@@ -16,12 +16,6 @@
   margin: 1em 0;
 }
 
-.root img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .root p {
   line-height: 1.6em;
   margin: 1em;

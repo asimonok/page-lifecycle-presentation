@@ -1,0 +1,15 @@
+.root {
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: blur(25px);
+  transition: filter .5s;
+}
+
+.loaded {
+  filter: blur(0px);
+}

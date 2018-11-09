@@ -65,10 +65,33 @@ body {
   font-size: 2rem;
 }
 
+.EanmFoTB36CSW7YrO147D {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 1rem;
+  border: none;
+}
+
 .EanmFoTB36CSW7YrO147D svg {
   fill: var(--text-color);
   width: 2rem;
   height: 2rem;
+}
+
+._17jo9Q6t0BQ9ynShKsMBc_ {
+  overflow: hidden;
+}
+
+._4ps8DfOzsAxwflwt2P_Mw {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: blur(25px);
+  transition: filter .5s;
+}
+
+._3Cty6zhXmpaqAEO2m30SGP {
+  filter: blur(0px);
 }
 
 ._1NHp4srJNzR_Fy6VvVcvTF {
@@ -87,12 +110,6 @@ body {
   font-size: 1.5rem;
   text-align: center;
   margin: 1em 0;
-}
-
-._1NHp4srJNzR_Fy6VvVcvTF img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 ._1NHp4srJNzR_Fy6VvVcvTF p {
