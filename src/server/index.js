@@ -14,7 +14,7 @@ app.use(express.static('dist'))
 // hide powered by express
 app.disable('x-powered-by');
 // start the server
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3030);
 
 // // our apps data model
 // const data = require('./assets/data.json');
